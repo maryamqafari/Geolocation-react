@@ -1,0 +1,28 @@
+{
+  "name": "limehome",
+  "version": "1.0.0",
+  "description": "This is a test project for limeHome",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "node server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "NodeJs-RestAPIs"
+  ],
+  "author": "MaryamGhafarinia",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.3.1",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.3",
+    "google-maps-react": "^2.0.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-toastify": "^5.1.1"
+  }
+}
