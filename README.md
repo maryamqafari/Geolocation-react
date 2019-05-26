@@ -1,7 +1,7 @@
 # Geolocation-react
 
-npm i 
-cd client 
-cd .. 
-npm i 
-npm run dev
+1. npm i 
+2. cd client 
+3. cd .. 
+4. npm i 
+5. npm run dev
